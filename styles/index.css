@@ -8,7 +8,7 @@
             background-position: left top;
             background-size: cover;
             position:absolute;
-            height: auto;
+            
         }
         header{
             width: fit-content;
@@ -27,7 +27,7 @@
         main {
             padding: 2.5% 2.5% 5%;
             width: 80%;
-            height: 300em;
+            height: auto;
             margin: 10% auto;
             background-color: rgb(59, 59, 59);
             border-radius: 25px;
