@@ -8,6 +8,7 @@
             background-position: left top;
             background-size: cover;
             position:absolute;
+            height: auto;
         }
         header{
             width: fit-content;
@@ -112,4 +113,8 @@
         #text_5 {
             top: 25%;
             left: 0%;
+        }
+        p.copyright {
+            text-align: center;
+            font-size: 80%;
         }
