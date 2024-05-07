@@ -25,8 +25,8 @@
             user-select: none; /* Standard syntax */
         }
         main {
-            padding: 2.5% 2.5% 5%;
-            width: 80%;
+            padding: 2.5% 2.5%;
+            width: 80vw;
             height: auto;
             margin: 10% auto;
             background-color: rgb(59, 59, 59);
@@ -53,66 +53,30 @@
             display: block;
             transition: 1s;
             filter: brightness(100%);
+            width: 75vw;
             z-index: 1;
         }
         
 
         img.image_div:hover {
             transform: scale(1.05); 
-            width: 100%;
+            width: 75vw;
             filter: brightness(60%);
         }
-
-        img#dino_1 {
-            width: 1440px;
-            max-width: 100%;
-        }
-        img#dino_2 {
-            width: 1440px;
-        }
-        img#dino_3 {
-            width: 1440px;
-        }
-        img#dino_4 {
-            width: 1440px;
-        }
-        img#dino_5 {
-            width: 1440px;
-        }
-
         div.text_content {
-            padding:0;
-            background-color: black;
-            font-size: 500%;
+            display: block;
+            padding: 0;
+            font-size: 6vw;
             position: absolute;
-            width: fit-content;
-            height: 0;
+            width: 60vw;
             color: white;
             text-align: center;
             -webkit-user-select: none; /* Safari */
             -ms-user-select: none; /* IE 10 and IE 11 */
             user-select: none; /* Standard syntax */
             filter: brightness(100%);
-        }
-        #text_1 {
-            top: 30%;
-            left: 25%;
-        }
-        #text_2 {
-            top: 30%;
-            left: 15%;
-        }
-        #text_3 {
-            top: 30%;
-            left: 27.5%;
-        }
-        #text_4 {
-            top: 30%;
-            left: 20%;
-        }
-        #text_5 {
-            top: 25%;
-            left: 0%;
+            left: 10%;
+            top: 15%;
         }
         p.copyright {
             color: white;
